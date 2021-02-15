@@ -21,4 +21,5 @@ def componer(a):
     else:
         compuesta = str(a[0])+str(a[1])+"i"
 
+    return compuesta
 

@@ -1,19 +1,8 @@
-def complejo(a):
-    a = a.split()
-    real = int(a[0])
-    imaginario = a[2]
+import componentes
 
-    if a[1] == "-":
-        imaginario = int(imaginario[:-1])*-1
-    else:
-        imaginario = int(imaginario[:-1])
-
-    return [real, imaginario]
-
-def sumaComplejo(a , b):
-    a = complejo(a)
-    b = complejo(b)
-
+def suma(a , b):
+    a = componentes.componentes(a)
+    b = componentes.componentes(b)
     real = a[0] + b[0]
     imaginario = a[1] + b[1]
 
@@ -26,3 +15,4 @@ def resultado(a, b):
         return str(a) + " - " + str(b) + "i"
 
     return str(a) + " + " + str(b) + "i"
+
