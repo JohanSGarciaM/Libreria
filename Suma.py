@@ -12,7 +12,7 @@ def resultado(a, b):
 
     if b < 0:
         b = b * -1
-        return str(a) + " - " + str(b) + "i"
+        return str(a) + "-" + str(b) + "i"
 
-    return str(a) + " + " + str(b) + "i"
+    return str(a) + "+" + str(b) + "i"
 
