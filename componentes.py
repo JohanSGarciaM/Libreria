@@ -16,7 +16,7 @@ def componentes(a):
     return a
 
 def componer(a):
-    if a[1]>0:
+    if a[1]>=0:
         compuesta = str(a[0])+"+"+str(a[1])+"i"
     else:
         compuesta = str(a[0])+str(a[1])+"i"

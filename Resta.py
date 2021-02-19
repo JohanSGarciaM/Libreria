@@ -34,3 +34,7 @@ def resultado(a, b):
 
     return str(a) + " + " + str(b) + "i"
 
+def main():
+    print(resta("8+6i","5+2i"))
+main()
+

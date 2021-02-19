@@ -25,3 +25,7 @@ def resultado(a, b):
 
     return str(round(a,2)) + " + " + str(round(b,2)) + "i"
 
+def main():
+    print(division("3-1i","2+1i"))
+
+main()
